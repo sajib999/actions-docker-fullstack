@@ -12,10 +12,10 @@
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --passWithNoTests",
-    "docker:build": "docker build -t nextjs-app .",
+    "docker:build": "docker build -f docker/Dockerfile -t nextjs-app .",
     "docker:run": "docker run -p 3000:3000 nextjs-app",
-    "docker:dev": "docker-compose up --build",
-    "docker:prod": "docker-compose -f docker-compose.prod.yml up --build"
+    "docker:dev": "cd docker && docker-compose up --build",
+    "docker:prod": "cd docker && docker-compose -f docker-compose.yml up --build"
   },
   "dependencies": {
     "react": "19.1.0",

@@ -6,6 +6,16 @@ export default function Home() {
           GitHub Actions With Docker and Full Stack
         </h1>
         <h3 className='text-lg text-amber-600'>Ishaq Ahmed</h3>
+        <p className='text-lg my-10 text-cyan-600'>The more the merrier</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          quae asperiores officia eligendi impedit enim corrupti exercitationem
+          facilis sunt ad aliquid? Voluptates optio incidunt ea sapiente
+          doloremque blanditiis sit labore accusantium sunt maxime similique,
+          expedita unde assumenda odio ut obcaecati cum voluptatibus tempore
+          excepturi ab fugit dolorem atque minima vero. Ipsum vitae aliquid
+          quibusdam amet.
+        </p>
       </main>
     </div>
   );
